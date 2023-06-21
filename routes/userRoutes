@@ -1,0 +1,20 @@
+const express = require("express")
+const router = express.Router()
+
+router.post("/signup", (req, res) => {
+
+    res.send("Signup from Node Js")
+
+})
+
+
+router.post("/signin", (req, res) => {
+
+    res.send("Sign In from Node Js")
+
+})
+
+
+module.exports = router;
+
+
